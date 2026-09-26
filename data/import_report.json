@@ -1,0 +1,39 @@
+{
+  "source_records": 7288,
+  "geometry_records": 7288,
+  "matched": 7288,
+  "dn300_records": 7288,
+  "missing_geometry_ids": [],
+  "full_extent": [
+    0,
+    0,
+    5470.932,
+    5815.657
+  ],
+  "risk_distribution": {
+    "低": 2324,
+    "较高": 1116,
+    "中": 2342,
+    "高": 1506
+  },
+  "diameter_distribution": {
+    "300.0": 3485,
+    "500.0": 2096,
+    "1000.0": 432,
+    "800.0": 575,
+    "900.0": 117,
+    "600.0": 103,
+    "400.0": 167,
+    "1200.0": 160,
+    "1400.0": 129,
+    "1600.0": 9,
+    "1500.0": 5,
+    "700.0": 10
+  },
+  "source_hashes": {
+    "DemoPipes属性数据.xlsx": "c9ec7fe516686e5adb5fb64c4584424e1aa738611be943c93a8112fc53b1b18b",
+    "DemoPipes.shp": "7d3716ae9df5af89e7c91e465f17b377c9d880a15e55ee65883a27773ad20114",
+    "DemoPipes.dbf": "5b5e4773237f21cf9c83df79e80c2ea9d90cb9896265ff5da5a43c9979cfdbe5",
+    "DemoPipes.prj": "5e6ef220b3fd68a3902a74eae3bc6052b0634b4c1e955b8a820ebba59227fe62"
+  }
+}

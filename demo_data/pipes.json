@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "mode": "demo",
+    "as_of": "2026-09-26",
+    "model_version": "演示规则 v0.1（非训练模型）",
+    "description": "全部记录为虚构样例。示意坐标不是地理坐标。等级仅用于界面演示：≥75高，40–74中，<40低。"
+  },
+  "pipes": [
+    {
+      "pipe_id": "DEMO-001",
+      "road": "示例北环路",
+      "diameter_mm": 800,
+      "material": "球墨铸铁",
+      "age_years": 27,
+      "length_m": 520,
+      "risk_score": 88,
+      "risk_level": "高",
+      "factors": [
+        "演示样例：较长服役年限",
+        "演示样例：存在历史维修记录"
+      ],
+      "recommendation": "示例建议：优先核对历史维修记录，并安排现场复核；实际排查措施需结合业务规范确定。",
+      "demo_path": "M100 150L240 150L310 205",
+      "demo_label": [
+        176,
+        150
+      ]
+    },
+    {
+      "pipe_id": "DEMO-002",
+      "road": "示例清源路",
+      "diameter_mm": 600,
+      "material": "钢管",
+      "age_years": 19,
+      "length_m": 603,
+      "risk_score": 76,
+      "risk_level": "高",
+      "factors": [
+        "演示样例：较长服役年限",
+        "演示样例：存在历史维修记录"
+      ],
+      "recommendation": "示例建议：优先核对历史维修记录，并安排现场复核；实际排查措施需结合业务规范确定。",
+      "demo_path": "M240 150L300 80L470 80",
+      "demo_label": [
+        345,
+        80
+      ]
+    },
+    {
+      "pipe_id": "DEMO-003",
+      "road": "示例中兴路",
+      "diameter_mm": 500,
+      "material": "球墨铸铁",
+      "age_years": 16,
+      "length_m": 686,
+      "risk_score": 63,
+      "risk_level": "中",
+      "factors": [
+        "演示样例：管龄与材质共同影响评分",
+        "运行数据尚待正式接入"
+      ],
+      "recommendation": "示例建议：纳入常规巡检，补充运行与维护资料后重新评估。",
+      "demo_path": "M310 205L445 205L520 150L640 150",
+      "demo_label": [
+        444,
+        205
+      ]
+    },
+    {
+      "pipe_id": "DEMO-004",
+      "road": "示例东桥路",
+      "diameter_mm": 400,
+      "material": "PE",
+      "age_years": 8,
+      "length_m": 769,
+      "risk_score": 34,
+      "risk_level": "低",
+      "factors": [
+        "演示样例：管龄与材质共同影响评分",
+        "运行数据尚待正式接入"
+      ],
+      "recommendation": "示例建议：纳入常规巡检，补充运行与维护资料后重新评估。",
+      "demo_path": "M470 80L520 150",
+      "demo_label": [
+        498,
+        117
+      ]
+    },
+    {
+      "pipe_id": "DEMO-005",
+      "road": "示例西环路",
+      "diameter_mm": 1000,
+      "material": "球墨铸铁",
+      "age_years": 31,
+      "length_m": 852,
+      "risk_score": 81,
+      "risk_level": "高",
+      "factors": [
+        "演示样例：较长服役年限",
+        "演示样例：存在历史维修记录"
+      ],
+      "recommendation": "示例建议：优先核对历史维修记录，并安排现场复核；实际排查措施需结合业务规范确定。",
+      "demo_path": "M100 150L85 265L165 320",
+      "demo_label": [
+        90,
+        230
+      ]
+    },
+    {
+      "pipe_id": "DEMO-006",
+      "road": "示例滨河路",
+      "diameter_mm": 600,
+      "material": "钢管",
+      "age_years": 14,
+      "length_m": 935,
+      "risk_score": 58,
+      "risk_level": "中",
+      "factors": [
+        "演示样例：管龄与材质共同影响评分",
+        "运行数据尚待正式接入"
+      ],
+      "recommendation": "示例建议：纳入常规巡检，补充运行与维护资料后重新评估。",
+      "demo_path": "M165 320L290 320L350 365",
+      "demo_label": [
+        248,
+        320
+      ]
+    },
+    {
+      "pipe_id": "DEMO-007",
+      "road": "示例中心路",
+      "diameter_mm": 300,
+      "material": "球墨铸铁",
+      "age_years": 12,
+      "length_m": 1018,
+      "risk_score": 43,
+      "risk_level": "中",
+      "factors": [
+        "演示样例：管龄与材质共同影响评分",
+        "运行数据尚待正式接入"
+      ],
+      "recommendation": "示例建议：纳入常规巡检，补充运行与维护资料后重新评估。",
+      "demo_path": "M310 205L290 320",
+      "demo_label": [
+        299,
+        260
+      ]
+    },
+    {
+      "pipe_id": "DEMO-008",
+      "road": "示例南苑路",
+      "diameter_mm": 500,
+      "material": "PE",
+      "age_years": 7,
+      "length_m": 1101,
+      "risk_score": 29,
+      "risk_level": "低",
+      "factors": [
+        "演示样例：管龄与材质共同影响评分",
+        "运行数据尚待正式接入"
+      ],
+      "recommendation": "示例建议：纳入常规巡检，补充运行与维护资料后重新评估。",
+      "demo_path": "M445 205L460 320L575 320",
+      "demo_label": [
+        481,
+        320
+      ]
+    },
+    {
+      "pipe_id": "DEMO-009",
+      "road": "示例东环路",
+      "diameter_mm": 1200,
+      "material": "球墨铸铁",
+      "age_years": 29,
+      "length_m": 1184,
+      "risk_score": 91,
+      "risk_level": "高",
+      "factors": [
+        "演示样例：较长服役年限",
+        "演示样例：存在历史维修记录"
+      ],
+      "recommendation": "示例建议：优先核对历史维修记录，并安排现场复核；实际排查措施需结合业务规范确定。",
+      "demo_path": "M640 150L655 265L575 320",
+      "demo_label": [
+        651,
+        231
+      ]
+    },
+    {
+      "pipe_id": "DEMO-010",
+      "road": "示例南环路",
+      "diameter_mm": 800,
+      "material": "钢管",
+      "age_years": 18,
+      "length_m": 1267,
+      "risk_score": 67,
+      "risk_level": "中",
+      "factors": [
+        "演示样例：管龄与材质共同影响评分",
+        "运行数据尚待正式接入"
+      ],
+      "recommendation": "示例建议：纳入常规巡检，补充运行与维护资料后重新评估。",
+      "demo_path": "M350 365L470 405L600 405",
+      "demo_label": [
+        470,
+        405
+      ]
+    },
+    {
+      "pipe_id": "DEMO-011",
+      "road": "示例兴业路",
+      "diameter_mm": 300,
+      "material": "球墨铸铁",
+      "age_years": 5,
+      "length_m": 1350,
+      "risk_score": 22,
+      "risk_level": "低",
+      "factors": [
+        "演示样例：管龄与材质共同影响评分",
+        "运行数据尚待正式接入"
+      ],
+      "recommendation": "示例建议：纳入常规巡检，补充运行与维护资料后重新评估。",
+      "demo_path": "M575 320L600 405",
+      "demo_label": [
+        588,
+        359
+      ]
+    },
+    {
+      "pipe_id": "DEMO-012",
+      "road": "示例西苑路",
+      "diameter_mm": 400,
+      "material": "PE",
+      "age_years": 11,
+      "length_m": 1433,
+      "risk_score": 48,
+      "risk_level": "中",
+      "factors": [
+        "演示样例：管龄与材质共同影响评分",
+        "运行数据尚待正式接入"
+      ],
+      "recommendation": "示例建议：纳入常规巡检，补充运行与维护资料后重新评估。",
+      "demo_path": "M165 320L130 425L265 455",
+      "demo_label": [
+        167,
+        433
+      ]
+    }
+  ]
+}
